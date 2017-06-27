@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, Main2Activity.class));
+                Toast.makeText(getApplicationContext(), "Openned second activity.", Toast.LENGTH_SHORT).show();
             }
         });
     }
